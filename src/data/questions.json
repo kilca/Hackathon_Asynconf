@@ -1,0 +1,134 @@
+[
+  {
+    "titre": "Type de véhicule",
+    "type": "score",
+    "step": "Type",
+    "image": "type",
+    "propositions": [
+      {
+        "nom": "Citadine : 800-1300kg",
+        "note": 8
+      },
+      {
+        "nom": "Cabriolet : 1300-2000kg",
+        "note": 6
+      },
+      {
+        "nom": "Berline : 1300-1800kg",
+        "note": 6.5
+      },
+      {
+        "nom": "SUV/4x4 : 1500-2500kg",
+        "note": 4
+      }
+    ]
+  },
+  {
+    "titre": "Energie",
+    "type": "score",
+    "step": "Energie",
+    "image": "energie",
+    "propositions": [
+      {
+        "nom": "Essence",
+        "note": 5
+      },
+      {
+        "nom": "Electrique",
+        "note": 9
+      },
+      {
+        "nom": "Gaz",
+        "note": 6
+      },
+      {
+        "nom": "Diesel",
+        "note": 4
+      },
+      {
+        "nom": "Hybride",
+        "note": 7
+      }
+    ]
+  },
+  {
+    "titre": "Kilométrage / an",
+    "type": "score",
+    "step": "Kilométrage",
+    "image": "kilometrage",
+    "propositions": [
+      {
+        "nom": "5-10K/km",
+        "note": 9
+      },
+      {
+        "nom": "10-15K/km",
+        "note": 7
+      },
+      {
+        "nom": "15-20K/km",
+        "note": 5
+      },
+      {
+        "nom": "20-25K/km",
+        "note": 3
+      },
+      {
+        "nom": "25-30K/km",
+        "note": 1
+      }
+    ]
+  },
+  {
+    "titre": "Année",
+    "type": "score",
+    "step": "Année",
+    "image": "annee",
+    "propositions": [
+      {
+        "nom": "1960-1970",
+        "note": 1
+      },
+      {
+        "nom": "1970-1980",
+        "note": 2
+      },
+      {
+        "nom": "1990-2000",
+        "note": 4
+      },
+      {
+        "nom": "2000-2010",
+        "note": 5
+      },
+      {
+        "nom": "Après 2010",
+        "note": 7
+      }
+    ]
+  },
+  {
+    "titre": "Nombre de passagers",
+    "step": "passagers",
+    "image": "personne",
+    "type": "bonus",
+    "propositions": [
+      {
+        "nom": "1",
+        "note": 0.11
+      },
+      {
+        "nom": "2",
+        "note": -0.17
+      },
+      {
+        "nom": "3",
+        "note": -0.29
+      },
+      {
+        "nom": "4",
+        "note": -0.53
+      }
+    ]
+  }
+]
